@@ -1,0 +1,13 @@
+@import url("/global-layout.css");
+@import url("/utilities/utilities.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: roboto, sans-serif;
+    scroll-behavior: smooth;
+}
