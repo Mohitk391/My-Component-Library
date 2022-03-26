@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("/components/components-styles.css");
+
+
+.page-layout {
+    display: grid;
+    grid-template-areas: "navbar"
+                        "main-body";
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 4fr; 
+    padding: 1rem;
+    background-color: var(--blue-background);
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.navbar a {
+    color: var(--black);
+    text-decoration: none;
+} 
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 0 1.5rem; 
+    
+}
+
+.external-links {   
+    width: 20%;
+    justify-self: end;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-size: 2rem;
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    border-right: 1px solid var(--black);
+}
+
+.sidebar-heading{
+    padding: 1rem ;
+    text-align: center;
+}
+
+.sidebar-item{
+    text-align: center;
+    list-style: none;
+    padding: 1rem; 
+}
+
+.sidebar-item:hover{
+    font-size: 1.2rem;
+    color: var(--black);
+    background-color: var(--bg-color-hover);
+    font-weight: 700;
+}
+
+.sidebar-item-active {
+    color: var(--black);
+    font-weight: 700;
+}
+
+.component-link {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.component_wrapper{
+    margin: 2rem;
+    line-height: 1.5rem;
+}
+
+.component_heading {
+    color: var(--text-primary);
+    padding: 2rem 0;
+    text-transform: capitalize;
+}
+
+.component_description{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.component_wrapper_box{
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    box-shadow: 0 0.5rem 1rem var(--shadow-black);
+    background-color: var(--bg-color);
+    word-wrap: break-word;
+}
+
+.component_iframe {
+    margin-top: 4rem;
+    overflow: auto;
+    background-color: var(--iframe-bg);
+    text-align: center;
+    width: 100%;
+}
+
+.component-separator {
+    margin: 0.5em 1.5em;
+}
