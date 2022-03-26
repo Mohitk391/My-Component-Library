@@ -18,12 +18,12 @@
 
 .alert-secondary {
     background-color:  var(--bg-secondary);
-    color: gray;
+    color: var(--text-secondary);
 }
 
 .alert-success {
     background-color: var(--bg-success); 
-    color: green;
+    color: var(--text-success);
 }
 
 .alert-danger {
@@ -33,7 +33,7 @@
 
 .alert-info {
     background-color: var(--bg-info); 
-    color: blue;
+    color: var(--text-info);
 }
 
 .alert-warning {
