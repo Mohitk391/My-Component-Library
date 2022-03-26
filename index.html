@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Component Library</title>
     <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 </head>
 <body>
     <div class="page-layout">
@@ -123,6 +126,136 @@
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=800&ds=false&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cspan%2520class%253D%2522avatar%2520avatar-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522square%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522square%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E"
                             class="avatar-iframe"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <hr class="component-separator">
+
+                <div class="component_wrapper">
+                    <h2 class="component_heading">Badge</h2>
+                    <p>
+                        The badge component has basic 4 types,
+                        <span class="component_description">badge-avatar-large</span>, 
+                        <span class="component_description">badge-avatar-medium</span>,
+                        <span class="component_description">badge-avatar-small</span>,
+                        <span class="component_description">badge-icon-small</span>,
+                        and 2 status, <span class="component_description">online</span> and <span class="component_description">offline</span>.
+                    </p>
+                    <h3 class="component_heading">Standar Badges</h3>
+                    <div class="component_wrapper_box">
+                        <div class="avatar_flex flex">
+                            <span class="avatar avatar-xl badge-container">
+                                <img src="/assets/avatar_sample.jpg" alt="avatar" class="round" />
+                                <div class="badge-avatar badge-avatar-large online round"></div>
+                            </span>
+                            <span class="avatar avatar-lg  badge-container">
+                                <img src="/assets/avatar_sample.jpg" alt="avatar"  class="round"/> 
+                                <div class="badge-avatar badge-avatar-medium offline round"></div>
+                            </span>
+                            <span class="avatar avatar-md badge-container">
+                                <img src="/assets/avatar_sample.jpg" alt="avatar"  class="square"/>
+                                <div class="badge-avatar badge-avatar-small online sqaure"></div>
+                            </span>
+                            <span class="badge-container shopping-cart-badge">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <span class="shopping-badge">2</span>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="component_iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=181%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522avatar%2520avatar-xl%2520badge-container%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522round%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520badge-avatar-large%2520online%2520round%2522%253E%253C%252Fdiv%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522avatar%2520avatar-lg%2520badge-container%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%2520class%253D%2522round%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520badge-avatar-medium%2520offline%2520round%2522%253E%253C%252Fdiv%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522avatar%2520avatar-md%2520badge-container%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%2520class%253D%2522square%2522%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520badge-avatar-small%2520online%2520sqaure%2522%253E%253C%252Fdiv%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge-container%2520shopping-cart-badge%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522shopping-badge%2520shopping-badge-text%2522%253E2%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                            class="badge-iframe"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <hr class="component-separator" />
+
+                <!-- First Part-->
+                <div class="component_wrapper">
+                    <h2 class="component_heading">Button</h2>
+                    <p>
+                        The Button component has basic 2 types,
+                        <span class="component_description">solid buttons</span> and 
+                        <span class="component_description">outlined buttons</span>.
+                    </p>
+                    <h3 class="component_heading">Solid Buttons</h3>
+                    <p>
+                        The Solid button components has basic 5 types,
+                        <span class="component_description">btn-primary</span>,  
+                        <span class="component_description">btn-round</span>, 
+                        <span class="component_description">btn-link</span>, 
+                        <span class="component_description">btn-hover</span>, 
+                        <span class="component_description">btn-disabled</span>.
+                    </p>
+                    <div class="component_wrapper_box">
+                        <div class="flex flex-row-wrap">
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-round">Rounded </button>
+                            <button class="btn btn-link">Link</button>
+                            <button class="btn btn-hover">Hover</button>
+                            <button class="btn btn-disabled">Disabled</button>
+                        </div>
+                    </div>
+
+                    <div class="component_iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fx-java&width=800&ds=false&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=181%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-round%2522%253ERounded%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2522%253EHover%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-disabled%2522%253EDisabled%253C%252Fbutton%253E"
+                            class="button-iframe"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                <!-- Second Part-->
+                    <h3 class="component_heading">Outlined Buttons</h3>
+                    <p>
+                        The Outlined button components has basic 4 types,
+                        <span class="component_description">btn-outline-primary</span>,  
+                        <span class="component_description">btn-outline-round</span>, 
+                        <span class="component_description">btn-outline-icon</span>, 
+                        <span class="component_description">btn-outline-hover</span>, 
+                        <span class="component_description">btn-outline-disabled</span>.
+                    </p>
+                    <div class="component_wrapper_box">
+                        <div class="flex flex-row-wrap">
+                            <button class="btn btn-outline-primary">Primary</button>
+                            <button class="btn btn-outline-round">Rounded </button>
+                            <button class="btn btn-outline-icon"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                            <button class="btn btn-outline-hover">Hover</button>
+                            <button class="btn btn-outline-disabled">Disabled</button>
+                        </div>
+                    </div>
+
+                    <div class="component_iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fx-java&width=800&ds=false&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=181%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-round%2522%253ERounded%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-icon%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-hover%2522%253EHover%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-disabled%2522%253EDisabled%253C%252Fbutton%253E"
+                            class="button-iframe"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                <!-- Third Part-->
+                    <h3 class="component_heading">Icon and Floating Action Buttons</h3>
+                    <p>
+                        The floating action button can be implemented using
+                        <span class="component_description">btn-floating-action</span>,  
+                        and a button with an icon can be implemented using 
+                        <span class="component_description">btn-icon</span>.
+                    </p>
+                    <div class="component_wrapper_box">
+                        <div class="flex flex-row-wrap">
+                            <button class="btn btn-floating-action"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            <button class="btn btn-icon"><span class="btn-icon-text">Login</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="component_iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=181%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522btn-icon-text%2522%253ELogin%253C%252Fspan%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%253C%252Fbutton%253E"
+                            class="button-iframe btn-icon-iframe"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
