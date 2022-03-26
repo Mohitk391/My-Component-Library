@@ -53,10 +53,6 @@
     text-align: center;
 }
 
-.sidebar ul {
-    padding: 0;
-}
-
 .sidebar-item{
     text-align: center;
     list-style: none;
@@ -107,7 +103,7 @@
 .component_iframe {
     margin-top: 4rem;
     overflow: auto;
-    background-color: #011627;
+    background-color: var(--iframe-bg);
     text-align: center;
     width: 100%;
 }
