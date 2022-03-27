@@ -1,0 +1,152 @@
+.card {
+    background-color: var(--white);
+    overflow: hidden;
+    width: 20rem;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 0 var(--box-shadow);
+}
+
+.vertical-card{
+    height: max-content;
+    display: grid;
+}
+
+.horizontal-card{
+    width: inherit;
+    display: grid;
+    grid-auto-flow: column ;
+
+}
+
+.overlay{
+    position: relative;
+}
+
+.card-image img{
+    height: 15rem;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.card-image-horizontal img{
+    height: 100%;
+    width: 20rem;
+    background-repeat: no-repeat;
+}
+
+.card-badge{
+    position: absolute;
+    background-color: var(--bg-badge);
+    padding: 0 0.5rem;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.top-left{
+    top: 5%;
+    left: 0;
+}
+
+.top-right{
+    top: 5%;
+    right: 0;
+}
+
+.bottom-left{
+    bottom: 5%;
+    left: 0;
+}
+
+.bottom-right{
+    bottom: 5%;
+    right: 0;
+}
+
+.card-dismiss-icon{
+    background-color: transparent;
+    color: var(--black);
+    font-size: 1.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.card-content{
+    display: grid;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.card-content-horizontal{
+    display: grid;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card-sub-title{
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.card-price-text{
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    font-weight: 700;
+}
+
+.card-footer{
+    padding: 0.2rem 0;
+    width: 100%;
+}
+
+.card-icons{
+    width: 8rem;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.card-icon-container{
+    cursor: pointer;
+    background: none;
+    border-style: none;
+    font-size: 1.5rem;   
+}
+
+.card-button-accept{
+    background-color: var(--bg-secondary);
+    border:none;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+.card-button-accept:hover{
+    background-color: var(--text-primary);
+    color: var(--white); 
+}
+
+.overlay-layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.card-iframe{
+    width: 50rem; 
+    height: 33.625rem;
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
