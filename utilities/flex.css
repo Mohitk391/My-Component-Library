@@ -42,3 +42,23 @@
 .flex-column-reverse-wrap {
     flex-flow: column-reverse wrap;
 }
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-space-around{
+    justify-content: space-around;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-space-evenly{
+    justify-content: space-evenly;
+}
