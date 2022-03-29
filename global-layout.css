@@ -54,6 +54,11 @@
     text-align: center;
 }
 
+.sidebar ul {
+    position: sticky;
+    top: 0;
+}
+
 .sidebar-item{
     text-align: center;
     list-style: none;
