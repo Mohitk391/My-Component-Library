@@ -62,3 +62,11 @@
 .flex-space-evenly{
     justify-content: space-evenly;
 }
+
+.flex-gap-1 {
+    gap: 1rem;
+}
+
+.flex-gap-2 {
+    gap: 2rem;
+}
