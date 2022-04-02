@@ -117,17 +117,22 @@
     font-size: 1.5rem;   
 }
 
-.card-button-accept{
-    background-color: var(--bg-secondary);
-    border:none;
-    border-radius: 1rem;
-    padding: 0.7rem;
-    font-size: 1rem;
+.cart-button:hover{
+    background-color: var(--bg-primary);
+    color: var(--black);
 }
 
-.card-button-accept:hover{
-    background-color: var(--text-primary);
-    color: var(--white); 
+.go-to-cart-button:hover{
+    color: var(--text-info);
+}
+
+.wishlist-button:hover {
+    background-color: var(--bg-danger);
+    color: var(--black);
+}
+
+.remove-from-wishlist-button:hover{
+    color: var(--text-danger);
 }
 
 .overlay-layer{
