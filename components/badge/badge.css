@@ -40,12 +40,12 @@
 
 .shopping-badge {
     position: absolute;
-    top: -1rem;
-    right: -1rem;
+    top: -0.8rem;
+    right: -0.8rem;
     
     border-radius: 50%;
     min-width: 1.5rem;
-    font-size: 1.2rem;
+    font-size:0.8rem;
     
     background-color: var(--bg-badge);
     color: var(--white);
